@@ -342,7 +342,7 @@ def pytest_sessionfinish(session, exitstatus):
             exitstatus_bool = "success"
         else:
             ERRORS.append(
-                f"Pytest exited with error status: {exitstatus}, {ERROR_MESSAGE_CONST[exitstatus]}"
+                f"pytest exited with error status: {exitstatus}, {ERROR_MESSAGE_CONST[exitstatus]}"
             )
             exitstatus_bool = "error"
 

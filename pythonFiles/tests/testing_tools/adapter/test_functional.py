@@ -14,7 +14,7 @@ from testing_tools.adapter.util import PATH_SEP, fix_path
 
 from ...__main__ import TESTING_TOOLS_ROOT
 
-# Pytest 3.7 and later uses pathlib/pathlib2 for path resolution.
+# pytest 3.7 and later uses pathlib/pathlib2 for path resolution.
 try:
     from pathlib import Path
 except ImportError:
